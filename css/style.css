@@ -36,6 +36,33 @@ img {
     font-family: Arial;
 }
 
+.btn-primary {
+    margin-top: 20px;
+    display: block;
+    margin: 10px auto;
+    text-decoration: none;
+    background-color: red;
+    padding: 5px 10px;
+    color: whitesmoke;
+    border-radius: 10px;
+}
+
+.btn-primary:hover {
+    background-color: rgb(255, 10, 10, 0.9);
+}
+
+.btn-secondary {
+    margin-top: 20px;
+    display: block;
+    margin: 10px auto;
+    width: 150px;
+    text-decoration: none;
+    background-color: rgb(4, 4, 137);
+    padding: 10px 5px;
+    color: whitesmoke;
+    border-radius: 10px;
+}
+
 .m-1 {
     margin: 10px;
 }
