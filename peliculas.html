@@ -2,19 +2,67 @@
 <html></html>
 <head>
     <meta charset="UTF-8">
-    <title>Tabla como las mujeres flacas</title>
+    <title>Tabla de peliculas</title>
 </head>
 <body>
     <style>
+        body {
+            overflow: scroll;
+        }
 
+        table {
+            width: 10%;
+            border: 0px solid black;
+            overflow-wrap: normal;
+        }
+
+        caption {
+            caption-side: bottom;
+            font-family: Arial;
+            font-size: small;
+        }
+
+        th {
+            text-align: center;
+            font-family: Arial;
+        }
+
+        img {
+            width: 340px;
+            height: 500px;
+        }
+
+        .title {
+            text-align: center;
+            font-size: large;
+            font-family: Arial;
+        }
+
+        .m-1 {
+            margin: 10px;
+        }
+
+        .bg-y {
+            background-color: yellow;
+        }
+
+        .bg-n {
+            background-color: black;
+        }
+
+        .bg-b {
+            background-color: blue;
+        }
     </style>
     <h2>Tabla de peliculas</h2>
     <table>
         <caption>
-
+            Todos los derechos reservados para Adrian
         </caption>
         <thead>
-            <th>Catalogo - Flix</th>
+            <th colspan="4" class="title">
+                <h1>Catalogo - Flix</h1>
+            </th>
         </thead>
 
         <tbody>
@@ -23,10 +71,18 @@
             </tr>
 
             <tr>
-                <td>Pelicula 1</td>
-                <td>Pelicula 2</td>
-                <td>Pelicula 3</td>
-                <td>Pelicula 4</td>
+                <td class="bg-b">
+                    <img class="m-1" src="Iron-Man.jpg" alt="Iron-Man 2">
+                </td>
+                <td class="bg-b">
+                    <img class="m-1" src="RobotSalvaje.jpg" alt="Robot Salvaje">
+                </td>
+                <td class="bg-b">
+                    <img class="m-1" src="Robots.jpg" alt="Robots">
+                </td>
+                <td class="bg-b">
+                    <img class="m-1" src="Up-poster.webp" alt="UP una aventura en alturas">
+                </td>
             </tr>
 
             <tr>
@@ -34,10 +90,18 @@
             </tr>
 
             <tr>
-                <td>Pelicula 1</td>
-                <td>Pelicula 2</td>
-                <td>Pelicula 3</td>
-                <td>Pelicula 4</td>
+                <td class="bg-b">
+                    <img class="m-1" src="AlFiloDelMañana.jpg" alt="Al Filo Del Mañana">
+                </td>
+                <td class="bg-b">
+                    <img class="m-1" src="PanteraNegra.jpg" alt="Pantera Negra">
+                </td>
+                <td class="bg-b">
+                    <img class="m-1" src="JohnWick.jpg" alt="John Wick">
+                </td>
+                <td class="bg-b">
+                    <img class="m-1" src="Matrix.jpg" alt="Matrix">
+                </td>
             </tr>
         </tbody>
     </table>

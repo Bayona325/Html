@@ -1,0 +1,53 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, "New Times Roman", Helvetica
+}
+
+body {
+    overflow: scroll;
+}
+
+table {
+    width: 10%;
+    border: 0px solid black;
+    overflow-wrap: normal;
+}
+
+caption {
+    caption-side: bottom;
+    font-family: Arial;
+    font-size: small;
+}
+
+th {
+    text-align: center;
+    font-family: Arial;
+}
+
+img {
+    width: 340px;
+    height: 500px;
+}
+
+.title {
+    text-align: center;
+    font-size: large;
+    font-family: Arial;
+}
+
+.m-1 {
+    margin: 10px;
+}
+
+.bg-y {
+    background-color: yellow;
+}
+
+.bg-n {
+    background-color: black;
+}
+
+.bg-b {
+    background-color: blue;
+}
