@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+}
+.box{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+.box1{
+    background-color: steelblue;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 15px;
+}
+.box2{
+    background-color: tomato;
+}
