@@ -1,0 +1,140 @@
+.title {
+    text-align: center;
+    font-family: Arial;
+    color: #fa1111;
+}
+
+.container {
+    margin: auto;
+    box-shadow: -4px 4px 4px rgb(0, 0, 0, 0.27);
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 600px;
+    /* height: 90px; */
+    background-color: rgb(234, 234, 234);
+    padding: 10px 20px;
+    /* Esto es un comentario en CSS ;) */
+    overflow: hidden;
+    /* Para el texto */
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    
+}
+
+.container:hover {
+    overflow: auto;
+    white-space: normal;
+    max-height: 200px;
+}
+
+.box-px {
+    box-sizing: border-box;
+    border: 2px solid black;
+    overflow: hidden;
+    background-color: aqua;
+    width: 100px;
+}
+
+.box-in {
+    box-sizing: border-box;
+    border: 2px solid black;
+    overflow: hidden;
+    background-color: rgb(3, 117, 117);
+    width: 2in;
+}
+
+.box-cm {
+    box-sizing: border-box;
+    border: 2px solid black;
+    overflow: hidden;
+    background-color: beige;
+    width: 2.54cm;
+}
+
+.box-mm {
+    box-sizing: border-box;
+    border: 2px solid black;
+    overflow: hidden;
+    background-color: coral;
+    width: 25.4mm;
+}
+
+.box-pt {
+    box-sizing: border-box;
+    border: 2px solid black;
+    overflow: hidden;
+    background-color: blueviolet;
+    width: 50pt;
+}
+
+.box-pc {
+    box-sizing: border-box;
+    border: 2px solid black;
+    overflow: hidden;
+    background-color: yellow;
+    width: 20pc;
+}
+
+.root {
+    font-size: 16px;
+}
+
+body {
+    font-size: 20px;
+}
+
+.box-em {
+    box-sizing: border-box;
+    border: 2px solid black;
+    overflow: hidden;
+    background-color: rgb(82, 109, 197);
+    width: 10em;
+}
+
+.box-rem {
+    box-sizing: border-box;
+    border: 2px solid black;
+    overflow: hidden;
+    background-color: rgb(134, 131, 80);
+    width: 10rem;
+}
+
+.box-per {
+    box-sizing: border-box;
+    border: 2px solid black;
+    overflow: hidden;
+    background-color: rgb(180, 81, 156);
+    width: 10%;
+}
+
+.box-vh {
+    box-sizing: border-box;
+    border: 2px solid black;
+    overflow: hidden;
+    background-color: rgb(253, 239, 111);
+    width: 10vh;
+}
+
+.box-vw {
+    box-sizing: border-box;
+    border: 2px solid black;
+    overflow: hidden;
+    background-color: rgb(175, 97, 84);
+    width: 10vw;
+}
+
+.box-vmin {
+    box-sizing: border-box;
+    border: 2px solid black;
+    overflow: hidden;
+    background-color: rgb(27, 117, 158);
+    width: 10vmin;
+}
+
+.box-vmax {
+    box-sizing: border-box;
+    border: 2px solid black;
+    overflow: hidden;
+    background-color: rgb(170, 56, 109);
+    width: 10vmax;
+}
